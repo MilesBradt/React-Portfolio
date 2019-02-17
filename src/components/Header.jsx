@@ -6,9 +6,33 @@ import avatar from "../images/slep.jpg";
 function Header() {
 
     return (
-        <div>
+        <div class="transparent">
+         <div id="header-body">
+        <style jsx global>{`
+          body {
+              background-color: #242424;
+              background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+            }
+
+            .transparent {
+                background-color: rgba(0, 0, 0, 0.75) !important;
+                width: 75%;
+                margin: 0 auto;
+            }
+            
+        #header-body {
+             text-align: center;
+             color: #FAE1C8;
+             font-size: 40px;
+         }
+            
+        #avatar-img {
+              border-radius: 15%;
+            }
+            `}</style>
             <h1>Miles' Portfolio</h1>
-            <img src={avatar}/>
+            <img id="avatar-img" src={avatar}/>
+            </div>
         </div>
     );
 }
