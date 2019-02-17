@@ -32,9 +32,8 @@ module.exports = {
     },
 
     module: {
-        
-        rules: [
-            {
+
+        rules: [{
                 test: /\.(png|gif|jp(e*)g|svg)$/,
                 use: {
                     loader: 'url-loader',
@@ -45,32 +44,33 @@ module.exports = {
                 }
             },
             {
-            test: /\.jsx?$/,
-            loader: "babel-loader",
-            exclude: /node_modules/,
-            options: {
-                presets: [
-                    ["es2015", {
-                        "modules": false
-                    }],
-                    "react",
-                ],
-                plugins: [
-                    "react-hot-loader/babel",
-                    "styled-jsx/babel"
-                ]
+                test: /\.jsx?$/,
+                loader: "babel-loader",
+                exclude: /node_modules/,
+                options: {
+                    presets: [
+                        ["es2015", {
+                            "modules": false
+                        }],
+                        "react",
+                    ],
+                    plugins: [
+                        "react-hot-loader/babel",
+                        "styled-jsx/babel"
+                    ]
+                }
             }
-        }]
-        
-    }, 
+        ]
+
+    },
     plugins: [
-       new webpack.HotModuleReplacementPlugin(),
-           new webpack.NamedModulesPlugin(),
-           new HtmlWebpackPlugin({
-               template: 'template.ejs',
-               appMountId: 'react-app-root',
-               title: 'Miles Portfolio',
-               filename: resolve(__dirname, "build", "index.html"),
-           }),
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NamedModulesPlugin(),
+        new HtmlWebpackPlugin({
+            template: 'template.ejs',
+            appMountId: 'react-app-root',
+            title: 'Miles Portfolio',
+            filename: resolve(__dirname, "build", "index.html"),
+        }),
     ]
 };
