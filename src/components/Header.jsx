@@ -1,13 +1,13 @@
 import React from "react";
 import avatar from "../images/slep.jpg";
-
+import styles from "../css/global.css";
 
 
 function Header() {
 
     return (
       <div>
-        <h1>Miles' Portfolio</h1>
+        <p id="header-text">Miles Bradt</p>
         <img id="avatar-img" src={avatar} />
       </div>
     );

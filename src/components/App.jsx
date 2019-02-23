@@ -11,22 +11,20 @@ function App() {
     <div>
     <style jsx global>{`
         body, html {
-          height: 100% !important;
+          height: 100%
         }
 
         body {
           background-image: linear-gradient( to top, #1A1D30, #0F0F0F);
         }
-
-
-          `}</style>
+        `}</style>
         <Navigation/>
+        <ParticleEffects/>
         <Switch>
             <Route exact path='/' component={Header} />
             <Route exact path='/about' component={About} />
             <Route exact path='/projects' component={Projects} />
         </Switch>
-        <ParticleEffects/>
 
     </div>
     );

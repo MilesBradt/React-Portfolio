@@ -1,0 +1,16 @@
+body, html {
+  height: 100%
+}
+
+body {
+  background-image: linear-gradient( to top, #1A1D30, #0F0F0F);
+}
+
+#navbar {
+  background-color: #0F0F0F;
+}
+
+#header-text {
+  color: #FFF;
+  font-size: 2em;
+}
