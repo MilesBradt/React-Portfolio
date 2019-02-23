@@ -8,6 +8,7 @@ const render = (Component) => {
     ReactDOM.render(
         <AppContainer>
             <HashRouter>
+
                 <Component />
             </HashRouter>
         </AppContainer>,
