@@ -1,30 +1,18 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { Icon, Button, Navbar, NavItem } from 'react-materialize';
+import styles from '../css/navigation-styles.css';
 
 function Navigation() {
 
     return (
-        <div class="transparent-nav">
-            <div id="nav-body">
-                <style jsx global>{`
-        
-        .transparent-nav {
-            background-color: rgba(0, 0, 0, 0.75) !important;
-            width: 250px;
-            height: 50px;
-            text-align: center;
-         }
-            
-        #nav-body {
-            color: #D6D6D6;
-            font-size: 14px;
-         }
-
-            `}</style>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
-            </div>
+        <div>
+        <style jsx>{styles}</style>
+        <Navbar id="navbar" left>
+          <Link to="/"><NavItem>Home</NavItem></Link>
+          <Link to="/about"><NavItem>About</NavItem></Link>
+          <Link to="/projects"><NavItem>Projects</NavItem></Link>
+        </Navbar>
         </div>
     );
 }
