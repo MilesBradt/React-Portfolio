@@ -15,7 +15,7 @@ function App() {
         }
 
         body {
-          background-image: linear-gradient(#0F0F0F, #404040);
+          background-image: linear-gradient( to top, #1A1D30, #0F0F0F);
         }
 
 
