@@ -4,8 +4,9 @@ import styles from '../css/global.css';
 function About() {
 
     return (
-      <div>
-        <h1>About Works</h1>
+      <div id="about-div">
+        <p><span id="about-text">About Works</span></p>
+        <p>placeholder text for about me</p>
       </div>
     );
 }

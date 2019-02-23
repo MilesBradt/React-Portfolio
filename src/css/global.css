@@ -3,7 +3,7 @@ body, html {
 }
 
 body {
-  background-image: linear-gradient(to top, #F8B88C, #A69C9B, #4B596F, #202C40, #121923, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F);
+  background-image: linear-gradient(to top, #C79470, #7D7575, #4B596F, #3B4657, #121923, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F);
 }
 
 #navbar {
@@ -22,4 +22,37 @@ body {
   margin-left: 25px;
   background-color: #0F0F0F;
   color: #FFF;
+}
+
+#header-name {
+  position: absolute;
+  top: 40px;
+  left: 25px;
+}
+
+#header-first-name {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+#header-last-name {
+  color: #697D9C;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+#about-text {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+#about-div {
+  background-color: #0F0F0F;
+  color: #FFFFFF;
+  height: 360px;
+  position: absolute;
+  top: 40px;
+  left: 800px;
 }

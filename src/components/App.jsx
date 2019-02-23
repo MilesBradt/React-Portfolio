@@ -13,10 +13,10 @@ function App() {
     <style jsx global>{styles}</style>
         <Navigation/>
         <ParticleEffects/>
+        <Header/>
         <Switch>
-            <Route exact path='/' component={Header} />
-            <Route exact path='/about' component={About} />
-            <Route exact path='/projects' component={Projects} />
+          <Route exact path='/' component={About} />
+          <Route exact path='/projects' component={Projects} />
         </Switch>
 
     </div>
