@@ -3,7 +3,7 @@ body, html {
 }
 
 body {
-  background-image: linear-gradient( to top, #1A1D30, #0F0F0F);
+  background-image: linear-gradient(to top, #F8B88C, #A69C9B, #4B596F, #202C40, #121923, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F);
 }
 
 #navbar {
@@ -13,4 +13,13 @@ body {
 #header-text {
   color: #FFF;
   font-size: 2em;
+}
+
+#card-style {
+  width: 550px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 25px;
+  background-color: #0F0F0F;
+  color: #FFF;
 }

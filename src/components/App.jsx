@@ -4,20 +4,13 @@ import Navigation from "./Navigation";
 import About from "./About";
 import Projects from "./Projects";
 import { Switch, Route } from 'react-router-dom';
-import ParticleEffects from './Particles'
+import ParticleEffects from './Particles';
+import styles from '../css/global.css';
 
 function App() {
     return (
     <div>
-    <style jsx global>{`
-        body, html {
-          height: 100%
-        }
-
-        body {
-          background-image: linear-gradient( to top, #1A1D30, #0F0F0F);
-        }
-        `}</style>
+    <style jsx global>{styles}</style>
         <Navigation/>
         <ParticleEffects/>
         <Switch>
