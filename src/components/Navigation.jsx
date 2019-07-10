@@ -8,10 +8,8 @@ function Navigation() {
 
     return (
         <div>
-
         <Navbar id="navbar" left>
-          <Link to="/"><NavItem>Home</NavItem></Link>
-          <Link to="/about"><NavItem>About</NavItem></Link>
+          <Link to="/"><NavItem>About</NavItem></Link>
           <Link to="/projects"><NavItem>Projects</NavItem></Link>
         </Navbar>
         </div>

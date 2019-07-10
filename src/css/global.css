@@ -1,13 +1,30 @@
-body, html {
-  height: 100%
+body,
+html {
+  height: 100%;
 }
 
 body {
-  background-image: linear-gradient(to top, #C79470, #7D7575, #4B596F, #3B4657, #121923, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F, #0F0F0F);
+  background: linear-gradient(to top, #F3904F, #3B4371);
+}
+
+a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #AAA;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#components-container {
+  margin-top: 25px;
 }
 
 #navbar {
-  background-color: #0F0F0F;
+  background-color: transparent;
 }
 
 #header-text {
@@ -17,17 +34,12 @@ body {
 
 #card-style {
   width: 550px;
-  float: left;
-  margin-top: 100px;
-  margin-left: 25px;
-  background-color: #0F0F0F;
+  background-color: transparent;
   color: #FFF;
 }
 
 #header-name {
-  position: absolute;
-  top: 40px;
-  left: 25px;
+  text-align: center;
 }
 
 #header-first-name {
@@ -37,7 +49,7 @@ body {
 }
 
 #header-last-name {
-  color: #697D9C;
+  color:#F3904F;
   font-weight: bold;
   font-size: 5em;
 }
@@ -48,11 +60,18 @@ body {
   font-size: 5em;
 }
 
+#contact-links {
+  color: #FFF;
+  text-align: center;
+}
+
+#email-text {
+  color: #FFF;
+  font-weight: bold;
+}
+
 #about-div {
-  background-color: #0F0F0F;
+  background-color: transparent;
   color: #FFFFFF;
   height: 360px;
-  position: absolute;
-  top: 40px;
-  left: 800px;
 }
