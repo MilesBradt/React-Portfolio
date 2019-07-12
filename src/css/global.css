@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: linear-gradient(to top, #F3904F, #3B4371);
+  background: linear-gradient(to top, #F3904F, rgb(19, 21, 36), rgb(19, 21, 36), rgb(19, 21, 36), rgb(19, 21, 36));
 }
 
 a {
@@ -57,12 +57,12 @@ a:hover {
 #about-text {
   color: #FFFFFF;
   font-weight: bold;
-  font-size: 5em;
+  font-size: 2em;
 }
 
 #contact-links {
   color: #FFF;
-  text-align: center;
+  margin-top: -15px;
 }
 
 #email-text {
@@ -70,8 +70,19 @@ a:hover {
   font-weight: bold;
 }
 
+#email-text:hover {
+  color: #AAA;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 #about-div {
   background-color: transparent;
+  text-align: center;
   color: #FFFFFF;
   height: 360px;
+}
+
+#header-col {
+  text-align: center;
 }
