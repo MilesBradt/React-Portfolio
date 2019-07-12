@@ -4,7 +4,9 @@ html {
 }
 
 body {
-  background: linear-gradient(to top, #F3904F, rgb(19, 21, 36), rgb(19, 21, 36), rgb(19, 21, 36), rgb(19, 21, 36));
+  background-image: linear-gradient(to top, rgb(109, 65, 36) 0%, rgb(19, 21, 36) 100%);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 a {
@@ -77,12 +79,50 @@ a:hover {
 }
 
 #about-div {
-  background-color: transparent;
-  text-align: center;
+  background-color: rgba(19, 21, 36, 0.404);
+  text-align: left;
   color: #FFFFFF;
-  height: 360px;
+}
+
+.resume-type-of-experience {
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  font-size: 1.15em;
+  background-color: rgb(109, 65, 36);
+  color: rgb(255, 255, 255);
+}
+
+.resume-experience {
+  font-weight: bold;
+}
+
+.resume-list {
+  margin-top: -10px;
 }
 
 #header-col {
   text-align: center;
+}
+
+.header-button {
+  margin-top: 25px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #FFF;
+  color: #FFF;
+}
+
+.header-button:hover {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #AAA;
+  color: #AAA;
+}
+
+.header-button:active {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #FFF;
+  color: #FFF;
 }
