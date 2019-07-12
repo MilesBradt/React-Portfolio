@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import Navigation from "./Navigation";
 import About from "./About";
 import Projects from "./Projects";
 import { Switch, Route } from 'react-router-dom';
@@ -12,7 +11,6 @@ function App() {
   return (
     <div>
       <style jsx global>{styles}</style>
-      <Navigation />
       <ParticleEffects />
       <div class='container' id='components-container'>
         <div class='row'>

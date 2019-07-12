@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import InterchangeableText from "./TextChange";
 import styles from "../css/global.css";
-import { Card, CardTitle } from 'react-materialize';
-
 
 function Header() {
 
@@ -18,7 +17,8 @@ function Header() {
         <a href="https://www.linkedin.com/in/michael-bradt-1b1888142/" target="_blank"> linkedin</a> |
         <CopyToClipboard text="smbradtmichael@gmail.com"><span id="email-text"> copy email to clipboard</span></CopyToClipboard>
       </p>
-      <Link to="/about"><button class="header-button">View Resume</button></Link>
+      <Link to="/about"><button class="header-button"><InterchangeableText defaultText="View Resume" changedText="Hide Resume" /></button></Link>
+      
     </div>
 
   );
