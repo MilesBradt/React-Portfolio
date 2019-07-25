@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import styles from '../css/global.css';
 
 
-function About() {
+function Resume() {
 
   return (
     <div class='col' id="about-div">
@@ -58,4 +58,4 @@ function About() {
   );
 }
 
-export default About;
+export default Resume;

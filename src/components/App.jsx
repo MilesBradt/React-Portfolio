@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import About from "./About";
+import About from "./Resume";
 import Projects from "./Projects";
 import { Switch, Route } from 'react-router-dom';
 import ParticleEffects from './Particles';

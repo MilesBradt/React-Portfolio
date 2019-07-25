@@ -141,9 +141,14 @@ a:hover {
   color: #AAA;
 }
 
-.header-button:active {
+.header-button:focus {
   background-color: transparent;
   border-style: solid;
   border-color: #FFF;
   color: #FFF;
+  outline: none;
+}
+
+#resume-div {
+  padding-top: 15px;
 }
